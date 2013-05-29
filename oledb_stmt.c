@@ -1491,7 +1491,7 @@ static int oledb_stmt_col_meta(pdo_stmt_t *stmt, long colno, zval *return_value 
 	}
 
 	if (C->metadata && C->metadata->defaultValue) {
-		ZVAL_ADDREF(C->metadata->defaultValue);
+		Z_ADDREF_P(C->metadata->defaultValue);
 		add_assoc_zval(return_value, "oledb:def", C->metadata->defaultValue);
 	}
 	if (!(C->columnFlags & DBCOLUMNFLAGS_ISNULLABLE)) {

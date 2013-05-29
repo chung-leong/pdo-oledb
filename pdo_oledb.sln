@@ -1,23 +1,23 @@
-Microsoft Visual Studio Solution File, Format Version 9.00
-# Visual Studio 2005
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C++ Express 2008
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pdo_oledb", "pdo_oledb.vcproj", "{180E074E-6451-4EB3-9615-732BD24D5191}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug 5.2 NTS|Win32 = Debug 5.2 NTS|Win32
-		Debug 5.2 TS|Win32 = Debug 5.2 TS|Win32
-		Release 5.2 NTS|Win32 = Release 5.2 NTS|Win32
-		Release 5.2 TS|Win32 = Release 5.2 TS|Win32
+		Debug|Win32 = Debug|Win32
+		Debug TS|Win32 = Debug TS|Win32
+		Release|Win32 = Release|Win32
+		Release TS|Win32 = Release TS|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{180E074E-6451-4EB3-9615-732BD24D5191}.Debug 5.2 NTS|Win32.ActiveCfg = Debug 5.2 NTS|Win32
-		{180E074E-6451-4EB3-9615-732BD24D5191}.Debug 5.2 NTS|Win32.Build.0 = Debug 5.2 NTS|Win32
-		{180E074E-6451-4EB3-9615-732BD24D5191}.Debug 5.2 TS|Win32.ActiveCfg = Debug 5.2 TS|Win32
-		{180E074E-6451-4EB3-9615-732BD24D5191}.Debug 5.2 TS|Win32.Build.0 = Debug 5.2 TS|Win32
-		{180E074E-6451-4EB3-9615-732BD24D5191}.Release 5.2 NTS|Win32.ActiveCfg = Release 5.2 NTS|Win32
-		{180E074E-6451-4EB3-9615-732BD24D5191}.Release 5.2 NTS|Win32.Build.0 = Release 5.2 NTS|Win32
-		{180E074E-6451-4EB3-9615-732BD24D5191}.Release 5.2 TS|Win32.ActiveCfg = Release 5.2 TS|Win32
-		{180E074E-6451-4EB3-9615-732BD24D5191}.Release 5.2 TS|Win32.Build.0 = Release 5.2 TS|Win32
+		{180E074E-6451-4EB3-9615-732BD24D5191}.Debug|Win32.ActiveCfg = Debug|Win32
+		{180E074E-6451-4EB3-9615-732BD24D5191}.Debug|Win32.Build.0 = Debug|Win32
+		{180E074E-6451-4EB3-9615-732BD24D5191}.Debug TS|Win32.ActiveCfg = Debug TS|Win32
+		{180E074E-6451-4EB3-9615-732BD24D5191}.Debug TS|Win32.Build.0 = Debug TS|Win32
+		{180E074E-6451-4EB3-9615-732BD24D5191}.Release|Win32.ActiveCfg = Release|Win32
+		{180E074E-6451-4EB3-9615-732BD24D5191}.Release|Win32.Build.0 = Release|Win32
+		{180E074E-6451-4EB3-9615-732BD24D5191}.Release TS|Win32.ActiveCfg = Release TS|Win32
+		{180E074E-6451-4EB3-9615-732BD24D5191}.Release TS|Win32.Build.0 = Release TS|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

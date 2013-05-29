@@ -31,7 +31,7 @@
 #include "php_pdo_oledb_int.h"
 
 /* {{{ pdo_oledb_functions[] */
-function_entry pdo_oledb_functions[] = {
+const zend_function_entry pdo_oledb_functions[] = {
 	{NULL, NULL, NULL}
 };
 /* }}} */
